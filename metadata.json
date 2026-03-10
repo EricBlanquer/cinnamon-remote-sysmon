@@ -1,0 +1,7 @@
+{
+  "uuid": "remote-sysmon@eric.blanquer",
+  "name": "Remote System Monitor",
+  "description": "Monitor CPU and RAM usage of a remote machine via SSH",
+  "version": "1.0",
+  "cinnamon-version": ["5.0"]
+}

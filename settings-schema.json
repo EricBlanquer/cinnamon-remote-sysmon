@@ -1,0 +1,68 @@
+{
+  "label": {
+    "type": "entry",
+    "default": "",
+    "description": "Label displayed in the panel"
+  },
+  "sshHost": {
+    "type": "entry",
+    "default": "user@host",
+    "description": "SSH host (user@host)"
+  },
+  "updateInterval": {
+    "type": "spinbutton",
+    "default": 10,
+    "min": 5,
+    "max": 120,
+    "step": 5,
+    "units": "seconds",
+    "description": "Update Interval:"
+  },
+  "cpuColor": {
+    "type": "colorchooser",
+    "default": "rgb(255,165,0)",
+    "description": "CPU graph color"
+  },
+  "memColor": {
+    "type": "colorchooser",
+    "default": "rgb(178,102,255)",
+    "description": "Memory graph color"
+  },
+  "tempColor": {
+    "type": "colorchooser",
+    "default": "rgb(255,80,80)",
+    "description": "Temperature graph color"
+  },
+  "thermalZone": {
+    "type": "entry",
+    "default": "",
+    "description": "Thermal zone name (empty = auto-detect CPU)"
+  },
+  "cpuGraphWidth": {
+    "type": "spinbutton",
+    "default": 40,
+    "min": 0,
+    "max": 200,
+    "step": 5,
+    "units": "px",
+    "description": "CPU graph width:"
+  },
+  "memGraphWidth": {
+    "type": "spinbutton",
+    "default": 40,
+    "min": 0,
+    "max": 200,
+    "step": 5,
+    "units": "px",
+    "description": "Memory graph width:"
+  },
+  "tempGraphWidth": {
+    "type": "spinbutton",
+    "default": 40,
+    "min": 0,
+    "max": 200,
+    "step": 5,
+    "units": "px",
+    "description": "Temperature graph width:"
+  }
+}
